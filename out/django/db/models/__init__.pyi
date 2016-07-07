@@ -4,5 +4,6 @@
 
 from django.db.models.aggregates import *
 from django.db.models.fields import *
+from django.db.models.base import Model
 
 def permalink(func): ...
